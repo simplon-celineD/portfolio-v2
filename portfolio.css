@@ -1,0 +1,519 @@
+*{
+  margin:0;
+  padding:0;
+}
+/*les margins et les paddings ne sont pas ajoutés aux tailles définies pour les divs*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body{
+  font-family: Geneva, Arial, sans-serif;
+  background-color: black;
+}
+a{
+  text-decoration: none;
+}
+
+/*Header*/
+
+#photo{
+  height: 94vh;
+  background-image: url(newyork.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-origin: content-box;
+  text-align: center;
+  padding-top: 20vh;
+}
+#nom{
+  color:black;
+  font-size: 6em;
+  font-family:'Playfair Display SC', serif;
+  z-index: 1;
+  font-size: 4em;
+  padding-top: 5vh;
+  border :0.4vw solid black;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 6vh;
+  padding-bottom: 5vh;
+  background-color:rgba(254, 248, 196, 0.4)
+}
+span{
+  color:#0b3a66;
+  font-weight: bold;
+}
+#menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color:  #0b3a66;
+  height: 6vh;
+  font-family:'Playfair Display SC', serif;
+  position: relative;
+}
+#ba{
+  width: 14vw;
+  text-align: center;
+  color: white;
+  padding-top: 1.7vh;
+  margin-left: 5.8vw;
+}
+#ba:hover{
+  background-color: white;
+  height: 6vh;
+  color: black;
+}
+#sypnosis{
+  width: 10vw;
+  text-align: center;
+  color: white;
+  padding-top: 1.7vh;
+  margin-left: 6.8vw;
+}
+#sypnosis:hover{
+  background-color: white;
+  height: 6vh;
+  color: black;
+}
+#mon_univers{
+  width: 12vw;
+  text-align: center;
+  color: white;
+  padding-top: 1.7vh;
+  margin-left: 7vw;
+}
+#mon_univers:hover{
+  background-color: white;
+  height: 6vh;
+  color: black;
+}
+#just_for_fans{
+  width: 13vw;
+  text-align: center;
+  color: white;
+  padding-top: 1.7vh;
+  margin-left: 8vw;
+}
+#just_for_fans:hover{
+  background-color: white;
+  height: 6vh;
+  color: black;
+}
+#plus{
+  width: 6vw;
+  text-align: center;
+  color: white;
+  padding-top: 1.7vh;
+  margin-left: 8vw;
+}
+#plus:hover{
+  background-color: white;
+  height: 6vh;
+  color: black;
+}
+
+/*Menu déroulant*/
+
+#menu ul {
+ list-style-type:none;
+ }
+#menu li {
+ float:left;
+ }
+#menu li a {
+ display:block;
+ width:13vw;
+ height: 5vh;
+ color:white;
+ text-decoration:none;
+ }
+#menu li a:hover {
+ color:#0b3a66;
+ background-color: white;
+ }
+ #menu ul li ul {
+display:none;
+padding-top: 1.4vh;
+}
+#menu ul li:hover ul {
+display:block;
+margin-top: -15vh;
+}
+#menu li:hover ul li {
+float:none;
+}
+#menu li ul {
+position:absolute;
+}
+
+
+/*Bande Annonce*/
+
+#bande_annonce{
+  height: 100vh;
+  /*background-color: #212121;*/
+  background-image: url(wallpaper21.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+}
+video{
+  margin-left: 15vw;
+  margin-top: 7vw;
+}
+
+/*Sypnosis*/
+
+#bloc_sypnosis{
+  height: 100vh;
+  background-image: url(wallpaper21.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+#syptitre{
+  border-top: 0.2vw solid white;
+  border-bottom: 0.2vw solid white;
+  color: white;
+  text-align: center;
+  margin-top: 8vh;
+  margin-left: 30vw;
+  margin-right: 30vw;
+  height: 10vh;
+  font-family:'Playfair Display SC', serif;
+  font-size: 2.5em;
+  font-weight: bolder;
+  padding-top: 0.5vh;
+}
+#syptexte{
+  width: 79vw;
+  height: 60vh;
+  background-color: rgba(255, 255, 255, 0.3);
+  margin-left: 10vw;
+  margin-top: 10vh;
+  font-family:'Playfair Display SC', serif;
+}
+.bloc{
+  display: flex;
+  flex-direction: row;
+}
+
+/*Mon Univers*/
+
+#bloc_univers{
+  height: 100vh;
+  background-image: url(wallpaper21.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+#universtitre{
+  border-top: 0.2vw solid white;
+  border-bottom: 0.2vw solid white;
+  padding-top: 0.5vh;
+  color: white;
+  text-align: center;
+  margin-top: 8vh;
+  margin-left: 30vw;
+  margin-right: 30vw;
+  height: 10vh;
+  font-family:'Playfair Display SC', serif;
+  font-size: 2.5em;
+  font-weight: bolder;
+}
+#universtexte{
+  width: 79vw;
+  height: 60vh;
+  background-color: rgba(255, 255, 255, 0.3);
+  margin-left: 10vw;
+  margin-top: 10vh;
+  font-family:'Playfair Display SC', serif;
+}
+
+/*Just For Fans*/
+
+    /*Partie 1*/
+
+.jff{
+  display: flex;
+  flex-direction: column;
+}
+#jff{
+  display: flex;
+  flex-direction: row;
+}
+#bloc_jff{
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  background-image: url(wallpaper21.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#ligne_1{
+  display: flex;
+  flex-direction: row;
+  height: 50vh;
+}
+#ligne_2{
+  display: flex;
+  flex-direction: row;
+  height: 50vh;
+}
+#airbnb{
+  background-image: url(airbnb.png);
+}
+#maquette{
+  background-image: url(maquette.png);
+}
+
+    /*Partie 2*/
+
+#bloc_jff2{
+  height: 100vh;
+  display: flex;
+  flex-direction:row;
+  background-image: url(wallpaper21.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#ligne_3{
+  display: flex;
+  flex-direction: row;
+  height: 50vh;
+}
+#ligne_4{
+  display: flex;
+  flex-direction: row;
+  height: 50vh;
+}
+#maquette_4{
+  background-image: url(maquette_4.png);
+}
+#acme{
+  background-image: url(acme.png);
+}
+
+/*Pour les 2 parties*/
+
+#maquette_4, #acme, #maquette, #airbnb{
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 40vw;
+  height: 40vh;
+  margin-top: 5vh;
+  margin-left: 5vw;
+  }
+
+.texte{
+  width: 40vw;
+  height: 50vh;
+}
+p{
+  background-color: white;
+  width: 40vw;
+  height: 40vh;
+  margin-top: 5vh;
+  margin-left: 5vw;
+  font-family:'Playfair Display SC', serif;
+}
+
+/*Plus*/
+
+#bloc_plus{
+  height: 100vh;
+  background-image: url(wallpaper16.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#contact{
+width: 35vw;
+height: 41vh;
+border: 0.1vw solid white;
+margin-top: 30vh;
+margin-left: 5vw;
+}
+#formulaire{
+  height: 80vh;
+  width: 36vw;
+  display: flex;
+  flex-direction: column;
+  margin-left: 8vw;
+  margin-top: 10vh;
+  border: 0.1vw solid white;
+}
+
+#ville{
+  display: flex;
+  flex-direction: row;
+  padding-top: 1vh;
+}
+#tel{
+  display: flex;
+  flex-direction: row;
+  padding-top: 1vh;
+}
+#mail{
+  display: flex;
+  flex-direction: row;
+  padding-top: 1vh;
+}
+#imgville{
+  width: 6vw;
+  height: 7vh;
+  margin-top: 4vh;
+  margin-left: 1.7vw;
+}
+#imgtel{
+  width: 6vw;
+  height: 7vh;
+  margin-top: 5vh;
+  margin-left: 1.7vw;
+}
+#imgmail{
+  width: 6vw;
+  height: 7vh;
+  margin-top: 5vh;
+  margin-left: 1.7vw;
+}
+.paragraphe{
+  width: 22vw;
+  height: 4vh;
+  text-align: center;
+  padding-top: 0.5vh;
+  margin-right: 3vw;
+  font-family:'Playfair Display SC', serif;
+  font-weight: bolder;
+  font-size: 1em;
+  background-color: rgba(11, 58, 102, 0.3);
+  color: white;
+}
+input{
+  width: 20vw;
+  height: 5vh;
+}
+#name, #forname, #email  {
+  margin-top: 5vh;
+  margin-left: 3vw;
+  padding-left: 1vw;
+  width: 30vw;
+  height: 6vh;
+  font-family:'Playfair Display SC', serif;
+  background-color: rgba(11, 58, 102, 0.3);
+  color: white;
+  font-weight: bolder;
+  font-size: 0.9em;
+  border: 0.1vw;
+}
+
+#textarea{
+  padding-left: 1vw;
+  padding-top: 1vw;
+  margin-top: 5vh;
+  margin-left: 3vw;
+  width: 30vw;
+  height: 30vh;
+  font-family:'Playfair Display SC', serif;
+  background-color: rgba(11, 58, 102, 0.3);
+  color: white;
+  font-weight: bolder;
+  font-size: 0.9em;
+  border: 0.1vw;
+}
+button{
+  width: 7vw;
+  height: 4vh;
+  margin-top: 2vh;
+  margin-left: 14vw;
+  font-family:'Playfair Display SC', serif;
+  font-weight: bolder;
+  background-color: rgba(11, 58, 102, 1);
+  color: white;
+  border: 0.08vw solid white;
+}
+
+/*Flèches*/
+
+#arrow{
+  display: flex;
+  flex-direction: column;
+  margin-left: 4.5vw;
+  margin-top: 10vh;
+}
+#arrow2{
+  margin-top: 25vh;
+  margin-left: 4vw;
+}
+.arrow1{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10vh;
+  margin-left: 4vw;
+}
+
+.arrow{
+  display: flex;
+  flex-direction: column;
+}
+.arrowhaut, .arrowbas{
+  width: 7vw;
+  height: 7vh;
+  margin-left: 1.8vw;
+  margin-top: 22vh;
+}
+
+/*Footer*/
+
+#retour{
+  height: 6vh;
+  background-color: black;
+  text-align: center;
+  font-size: 0.9em;
+  padding-top: 2vh;
+  color: #0b3a66;
+}
+#retour:hover{
+  background-color:#0b3a66;
+  color: black;
+}
+footer{
+  background-color: white;
+  height: 14vh;
+  display: flex;
+  flex-direction: column;
+}
+#reseaux{
+  display: flex;
+  flex-direction:row;
+  padding-left: 35vw;
+}
+#reseaux img{
+  width: 7vw;
+  height: 7vh;
+  display: flex;
+  flex-direction: row;
+  margin-top: 2vh;
+  padding-bottom: 1vh;
+}
+
+#infos{
+  display: flex;
+  justify-content: center;
+  height: 4vh;
+  width: 40vw;
+  color:#212121;
+  font-size: 0.8em;
+  margin-left: 29vw;
+  padding-top: 2vh;
+}
