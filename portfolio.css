@@ -6,12 +6,22 @@
 html {
   box-sizing: border-box;
 }
+@font-face {
+  font-family: 'CODE Bold';
+  src: url('CODE Bold.otf');
+}
+@font-face {
+  font-family: 'CODE Light';
+  src: url('CODE Light.otf');
+}
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
 body{
-  font-family: Geneva, Arial, sans-serif;
   background-color: black;
+  font-family: sans-serif;
+
 }
 a{
   text-decoration: none;
@@ -32,7 +42,7 @@ a{
 #nom{
   color:black;
   font-size: 6em;
-  font-family:'Playfair Display SC', serif;
+  font-family: "CODE Bold", Arial, sans-serif;
   z-index: 1;
   font-size: 4em;
   padding-top: 5vh;
@@ -46,6 +56,8 @@ a{
 span{
   color:#0b3a66;
   font-weight: bold;
+  font-family: "CODE Bold", Arial, sans-serif;
+
 }
 #menu{
   display: flex;
@@ -53,7 +65,7 @@ span{
   justify-content: space-around;
   background-color:  #0b3a66;
   height: 6vh;
-  font-family:'Playfair Display SC', serif;
+  font-family: "CODE Bold", Arial, sans-serif;
   position: relative;
 }
 #ba{
@@ -61,7 +73,7 @@ span{
   text-align: center;
   color: white;
   padding-top: 1.7vh;
-  margin-left: 5.8vw;
+  margin-left: 5vw;
 }
 #ba:hover{
   background-color: white;
@@ -85,7 +97,7 @@ span{
   text-align: center;
   color: white;
   padding-top: 1.7vh;
-  margin-left: 7vw;
+  margin-left: 6vw;
 }
 #mon_univers:hover{
   background-color: white;
@@ -97,7 +109,7 @@ span{
   text-align: center;
   color: white;
   padding-top: 1.7vh;
-  margin-left: 8vw;
+  margin-left: 6vw;
 }
 #just_for_fans:hover{
   background-color: white;
@@ -105,7 +117,7 @@ span{
   color: black;
 }
 #plus{
-  width: 6vw;
+  width: 8vw;
   text-align: center;
   color: white;
   padding-top: 1.7vh;
@@ -131,6 +143,8 @@ span{
  height: 5vh;
  color:white;
  text-decoration:none;
+ padding-top: 1.4vh;
+
  }
 #menu li a:hover {
  color:#0b3a66;
@@ -187,10 +201,10 @@ video{
   margin-left: 30vw;
   margin-right: 30vw;
   height: 10vh;
-  font-family:'Playfair Display SC', serif;
+  font-family: "CODE Bold", Arial, sans-serif;
   font-size: 2.5em;
   font-weight: bolder;
-  padding-top: 0.5vh;
+  padding-top: 2vh;
 }
 #syptexte{
   width: 79vw;
@@ -198,7 +212,7 @@ video{
   background-color: rgba(255, 255, 255, 0.3);
   margin-left: 10vw;
   margin-top: 10vh;
-  font-family:'Playfair Display SC', serif;
+  font-family: "CODE Bold", Arial, sans-serif;
 }
 .bloc{
   display: flex;
@@ -218,14 +232,14 @@ video{
 #universtitre{
   border-top: 0.2vw solid white;
   border-bottom: 0.2vw solid white;
-  padding-top: 0.5vh;
+  padding-top: 2vh;
   color: white;
   text-align: center;
   margin-top: 8vh;
   margin-left: 30vw;
   margin-right: 30vw;
   height: 10vh;
-  font-family:'Playfair Display SC', serif;
+  font-family: "CODE Bold", Arial, sans-serif;
   font-size: 2.5em;
   font-weight: bolder;
 }
@@ -235,7 +249,7 @@ video{
   background-color: rgba(255, 255, 255, 0.3);
   margin-left: 10vw;
   margin-top: 10vh;
-  font-family:'Playfair Display SC', serif;
+  font-family: "CODE Bold", Arial, sans-serif;
 }
 
 /*Just For Fans*/
@@ -323,10 +337,10 @@ p{
   height: 40vh;
   margin-top: 5vh;
   margin-left: 5vw;
-  font-family:'Playfair Display SC', serif;
+  font-family: "CODE Light", Arial, sans-serif;
 }
 
-/*Plus*/
+/*Contact*/
 
 #bloc_plus{
   height: 100vh;
@@ -393,7 +407,7 @@ margin-left: 5vw;
   text-align: center;
   padding-top: 0.5vh;
   margin-right: 3vw;
-  font-family:'Playfair Display SC', serif;
+  font-family: "CODE Bold", Arial, sans-serif;
   font-weight: bolder;
   font-size: 1em;
   background-color: rgba(11, 58, 102, 0.3);
@@ -409,7 +423,7 @@ input{
   padding-left: 1vw;
   width: 30vw;
   height: 6vh;
-  font-family:'Playfair Display SC', serif;
+  font-family: "CODE Bold", Arial, sans-serif;
   background-color: rgba(11, 58, 102, 0.3);
   color: white;
   font-weight: bolder;
@@ -424,7 +438,7 @@ input{
   margin-left: 3vw;
   width: 30vw;
   height: 30vh;
-  font-family:'Playfair Display SC', serif;
+  font-family: "CODE Bold", Arial, sans-serif;
   background-color: rgba(11, 58, 102, 0.3);
   color: white;
   font-weight: bolder;
@@ -436,7 +450,7 @@ button{
   height: 4vh;
   margin-top: 2vh;
   margin-left: 14vw;
-  font-family:'Playfair Display SC', serif;
+  font-family: "CODE Bold", Arial, sans-serif;
   font-weight: bolder;
   background-color: rgba(11, 58, 102, 1);
   color: white;
@@ -482,6 +496,7 @@ button{
   font-size: 0.9em;
   padding-top: 2vh;
   color: #0b3a66;
+  font-family: "CODE Bold", Arial, sans-serif;
 }
 #retour:hover{
   background-color:#0b3a66;
@@ -492,6 +507,8 @@ footer{
   height: 14vh;
   display: flex;
   flex-direction: column;
+  font-family: "CODE Bold", Arial, sans-serif;
+
 }
 #reseaux{
   display: flex;

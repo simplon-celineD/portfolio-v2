@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title> Céline DESBOIS</title>
     <link rel="stylesheet" href="portfolio.css"/>
-    <link href='https://fonts.googleapis.com/css?family=Playfair+Display+SC:400,700italic,700' rel='stylesheet' type='text/css'>
+    <!-- <link href='https://fonts.googleapis.com/css?family=Playfair+Display+SC:400,700italic,700' rel='stylesheet' type='text/css'> -->
     <script type="text/javascript" src="scripts-base.js"></script>
 
     </script>
@@ -15,7 +15,7 @@
 
     <header>
       <div id="photo">
-        <div id="nom"> <span>Céline</span><strong><em> DESBOIS</em></strong>
+        <div id="nom"> <span>Céline</span><strong> DESBOIS </strong>
           <br/>
           Développeuse Web Junior
         </div>
@@ -37,7 +37,7 @@
       <a href="#bloc_jff2"><li> Partie 2 </li></a>
     </ul>
   </li>
-    <a href="#bloc_plus"><li id="plus"> PLUS </li>
+    <a href="#bloc_plus"><li id="plus"> CONTACT </li>
   </ul>
 
 </section>
@@ -201,20 +201,10 @@
               </div>
             </article>
 
+            <?php
+            include("contact.php");
+            ?>
 
-            <article id="formulaire">
-              <form>
-                  <input type="text" name="name" id="name" placeholder="Votre Nom ..."/>
-                  <br/>
-                  <input type="text" name="forname" id="forname" placeholder="Votre Prenom ..."/>
-                  <br/>
-                  <input type="email" name="email" id="email" placeholder="Votre adresse mail ..."/>
-                  <br/>
-                  <textarea type="text" name="textarea" id="textarea"> Votre Message ... </textarea>
-                  <br/>
-                  <button type="button"> ENVOYER </button>
-              </form>
-            </article>
           </article>
 
           <article id="arrow2">
