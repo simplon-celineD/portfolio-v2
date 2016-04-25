@@ -31,7 +31,8 @@ a{
 
 #photo{
   height: 94vh;
-  background-image: url(newyork.jpg);
+  background-image:url(web/img/newyork.jpg);
+  /*background-color: grey;*/
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
