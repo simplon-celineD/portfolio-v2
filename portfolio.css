@@ -8,11 +8,11 @@ html {
 }
 @font-face {
   font-family: 'CODE Bold';
-  src: url('CODE Bold.otf');
+  src: url('fonts/CODE Bold.otf');
 }
 @font-face {
   font-family: 'CODE Light';
-  src: url('CODE Light.otf');
+  src: url('fonts/CODE Light.otf');
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -31,7 +31,7 @@ a{
 
 #photo{
   height: 94vh;
-  background-image:url(web/img/newyork.jpg);
+  background-image:url(img/newyork.jpg);
   /*background-color: grey;*/
   background-repeat: no-repeat;
   background-size: cover;
@@ -172,7 +172,7 @@ position:absolute;
 #bande_annonce{
   height: 100vh;
   /*background-color: #212121;*/
-  background-image: url(wallpaper21.jpeg);
+  background-image: url(img/wallpaper21.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -187,7 +187,7 @@ video{
 
 #bloc_sypnosis{
   height: 100vh;
-  background-image: url(wallpaper21.jpeg);
+  background-image: url(img/wallpaper21.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -224,7 +224,7 @@ video{
 
 #bloc_univers{
   height: 100vh;
-  background-image: url(wallpaper21.jpeg);
+  background-image: url(img/wallpaper21.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -269,7 +269,7 @@ video{
   height: 100vh;
   display: flex;
   flex-direction: row;
-  background-image: url(wallpaper21.jpeg);
+  background-image: url(img/wallpaper21.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -284,10 +284,10 @@ video{
   height: 50vh;
 }
 #airbnb{
-  background-image: url(airbnb.png);
+  background-image: url(img/airbnb.png);
 }
 #maquette{
-  background-image: url(maquette.png);
+  background-image: url(img/maquette.png);
 }
 
     /*Partie 2*/
@@ -296,7 +296,7 @@ video{
   height: 100vh;
   display: flex;
   flex-direction:row;
-  background-image: url(wallpaper21.jpeg);
+  background-image: url(img/wallpaper21.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -311,10 +311,10 @@ video{
   height: 50vh;
 }
 #maquette_4{
-  background-image: url(maquette_4.png);
+  background-image: url(img/maquette_4.png);
 }
 #acme{
-  background-image: url(acme.png);
+  background-image: url(img/acme.png);
 }
 
 /*Pour les 2 parties*/
@@ -345,7 +345,7 @@ p{
 
 #bloc_plus{
   height: 100vh;
-  background-image: url(wallpaper16.jpg);
+  background-image: url(img/wallpaper16.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   display: flex;
