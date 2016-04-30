@@ -4,142 +4,177 @@
     <meta charset="utf-8">
     <title> Céline DESBOIS</title>
     <link rel="stylesheet" href="portfolio.css"/>
-    <!-- <link href='https://fonts.googleapis.com/css?family=Playfair+Display+SC:400,700italic,700' rel='stylesheet' type='text/css'> -->
-    <script type="text/javascript" src="scripts-base.js"></script>
 
-    </script>
   </head>
   <body id="body">
 
 <!-- Header : photo avec nom et prénom-->
 
     <header>
-      <div id="photo">
-        <div id="nom"> <span>Céline</span><strong> DESBOIS </strong>
-          <br/>
+
+        <div id="nom">
+          <strong> CELINE DESBOIS </strong>
+        <br/>
           Développeuse Web Junior
         </div>
-      </div>
+
     </header>
-    <div id="presentation">
-    </div>
+
 
 <!-- Bloc menu -->
 
-<section id="menu">
-  <ul>
-    <a href="#bande_annonce"><li id="ba"> BANDE ANNONCE </li></a>
-    <a href="#bloc_sypnosis"><li id="sypnosis"> SYPNOSIS </li></a>
-    <a href="#bloc_univers"><li id="mon_univers"> MON UNIVERS </li></a>
-    <li id="just_for_fans"> JUST FOR FANS
-    <ul>
-      <a href="#bloc_jff"><li> Partie 1 </li></a>
-      <a href="#bloc_jff2"><li> Partie 2 </li></a>
-    </ul>
-  </li>
-    <a href="#bloc_plus"><li id="plus"> CONTACT </li>
-  </ul>
+  <body>
+      <section id="menu">
+        <ul>
+          <a href="#bloc_sypnosis"><li id="sypnosis"> SYPNOSIS </li></a>
+          <a href="#bande_annonce"><li id="ba"> BANDE ANNONCE </li></a>
+          <a href="#bloc_univers"><li id="mon_univers"> MON UNIVERS </li></a>
+          <li id="just_for_fans"> JUST FOR FANS
+          <ul>
+            <a href="#bloc_jff"><li> Partie 1 </li></a>
+            <a href="#bloc_jff2"><li> Partie 2 </li></a>
+          </ul>
+        </li>
+          <a href="#bloc_plus"><li id="plus"> CONTACT </li>
+        </ul>
 
-</section>
-
-<!-- Bloc vidéo bande annonce -->
-
-    <section id="bande_annonce">
-      <article id="bandeannonce">
-        <video width="900vw" height="500vh" controls>
-          <source src="divergente3.mp4" type="video/mp4">
-        </video>
-      </article>
-      <div id="arrow">
-          <div class="flechehaut">
-            <a href="#body"><img class="arrowhaut" src="img/arrowhaut.svg"alt="Image"/></a>
-          </div>
-          <div class="flechehaut">
-            <a href="#bloc_sypnosis"><img class="arrowbas" src="img/arrowbas.svg"alt="Image"/></a>
-          </div>
-      </div>
-    </section>
+      </section>
 
 <!-- Bloc sypnosis : présentation -->
 
-    <section id="bloc_sypnosis">
-          <article id="syptitre"> SYPNOSIS
+      <section id="bloc_sypnosis">
+            <article id="syptitre"> SYPNOSIS
+            </article>
+          <article class="bloc">
+
+          <div class="sousbloc">
+            <article id="syptexte">
+            <p class="syptxt">
+              Je m'appelle Céline et je suis une lyonnaise de 24 ans.
+              Passionnée d'informatique, de cinéma et de musique je cherche
+              à me tenir constamment informée des nouveautés.
+            </br>
+              Après avoir évoluée grâce à différentes expériences professionnelles et personnelles,
+              la Céline version 2016 est depuis 6 mois une 007 de la programmation.
+            </p>
+              La signification de 007 est simple.
+              Le 1er zéro désigne que j'ai l'autorisation de coder.
+              Le second indique que j'ai déjà codé.
+              Enfin le 7 est mon chiffre porte bonheur et un clin d'oeil au célèbre
+              agent du MI6 : James Bond.
+            <p class="syptxt">
+              Comme tous les espions, j'ai combattu mes pires ennemis qui ce sont montrés
+              redoutables !
+            </br>
+              Le doute, le syndrome de l'imposteur, les points virgules !
+            </br>
+              Et c'est avec du courage, du volontarisme et de la persévérence que j'y verrais
+              un aboutissement.
+            </p>
+            <p class="syptxt">
+              Je vous écrit tout cela car je me suis engagée dans l'accomplissement d'une
+              intervention décisive.
+            </br>
+              M directrice de Simplon-Lyon s'est liée à l'EPSI afin que Simploniens/Simploniennes
+              réalise une opération.
+            </br>
+              Nom de code : Bachelor Informatique.
+            </p>
+            <p class="syptxt">
+              Ma mission : Intercepter mon entreprise et signer mon contrat d'alternance ou CDI.
+            </p>
+            <p class="syptxt">
+              Alors serez-vous mon contact ?
+            </p>
+            </article>
+          </div>
+            <div class="arrow">
+                <div class="flechehaut">
+                  <a href="#body"><img class="arrowhaut" src="img/arrowhaut.svg"alt="Image"/></a>
+                </div>
+                <div class="flechehaut">
+                  <a href="#bande_annonce"><img class="arrowbas" src="img/arrowbas.svg"alt="Image"/></a>
+                </div>
+            </div>
+          </article>
+
+      </section>
+
+<!-- Bloc vidéo bande annonce -->
+
+      <section id="bande_annonce">
+        <article id="bandeannonce">
+          <video width="900vw" height="500vh" controls>
+            <source src="video/space.mp4" type="video/mp4">
+          </video>
+        </article>
+        <div id="arrow">
+            <div class="flechehaut">
+              <a href="#bloc_sypnosis"><img class="arrowhaut" src="img/arrowhaut.svg"alt="Image"/></a>
+            </div>
+            <div class="flechehaut">
+              <a href="#bloc_univers"><img class="arrowbas" src="img/arrowbas.svg"alt="Image"/></a>
+            </div>
+        </div>
+      </section>
+
+
+
+<!-- Bloc Univers du code -->
+
+      <section id="bloc_univers">
+          <article id="universtitre"> MON UNIVERS
           </article>
         <article class="bloc">
 
         <div class="sousbloc">
-          <article id="syptexte">
+          <article id="universtexte">
           </article>
         </div>
           <div class="arrow">
-              <div class="flechehaut">
-                <a href="#bande_annonce"><img class="arrowhaut" src="img/arrowhaut.svg"alt="Image"/></a>
-              </div>
-              <div class="flechehaut">
-                <a href="#bloc_univers"><img class="arrowbas" src="img/arrowbas.svg"alt="Image"/></a>
-              </div>
-          </div>
-        </article>
-
-    </section>
-
-<!-- Bloc Univers du code -->
-
-    <section id="bloc_univers">
-        <article id="universtitre"> MON UNIVERS
-        </article>
-      <article class="bloc">
-
-      <div class="sousbloc">
-        <article id="universtexte">
-        </article>
-      </div>
-        <div class="arrow">
+            <div class="flechehaut">
+              <a href="#bloc_sypnosis"><img class="arrowhaut" src="img/arrowhaut.svg"alt="Image"/>
+            </div>
           <div class="flechehaut">
-            <a href="#bloc_sypnosis"><img class="arrowhaut" src="img/arrowhaut.svg"alt="Image"/>
+              <a href="#bloc_jff"><img class="arrowbas" src="img/arrowbas.svg"alt="Image"/>
           </div>
-        <div class="flechehaut">
-            <a href="#bloc_jff"><img class="arrowbas" src="img/arrowbas.svg"alt="Image"/>
         </div>
-      </div>
-    </article>
+        </article>
 
-</section>
+      </section>
 
 <!-- Partie 1 -->
 
-    <section id="bloc_jff">
+      <section id="bloc_jff">
 
-      <article class="jff">
+        <article class="jff">
 
-        <article id="ligne_1">
-            <a href="http://htmlpreview.github.io/?https://raw.githubusercontent.com/simplon-celineD/rendu1/master/airbnb.html"><div id="airbnb">
+          <article id="ligne_1">
+              <a href="http://htmlpreview.github.io/?https://raw.githubusercontent.com/simplon-celineD/rendu1/master/airbnb.html"><div id="airbnb">
+              </div></a>
+              <a href="http://htmlpreview.github.io/?https://raw.githubusercontent.com/simplon-celineD/rendu1/master/maquettevilles.html"><div id="maquette">
+              </div></a>
+          </article>
+
+
+          <article id="ligne_2">
+            <a href="http://htmlpreview.github.io/?https://raw.githubusercontent.com/simplon-celineD/rendu1/master/maquette_4colonne.html"><div id="maquette_4">
             </div></a>
-            <div class="texte">
-              <p class="txt"> </p>
-            </div>
+            <a href="http://htmlpreview.github.io/?https://raw.githubusercontent.com/simplon-celineD/rendu1/master/maquette_4colonne.html"><div id="acme">
+            </div></a>
+          </article>
+
         </article>
 
-
-        <article id="ligne_2">
-            <a href="http://htmlpreview.github.io/?https://raw.githubusercontent.com/simplon-celineD/rendu1/master/maquettevilles.html"><div id="maquette">
-            </div></a>
-            <div class="texte">
-              <p class="txt"> </p>
+        <article class="arrow1">
+            <div class="flechehaut">
+              <a href="#bloc_univers"><img class="arrowhaut" src="img/arrowhaut.svg"alt="Image"/>
+              </div>
+            <div class="flechehaut">
+              <a href="#bloc_jff2"><img class="arrowbas" src="img/arrowbas.svg"alt="Image"/>
             </div>
         </article>
-
-      </article>
-
-      <article class="arrow1">
-          <div class="flechehaut">
-            <a href="#bloc_univers"><img class="arrowhaut" src="img/arrowhaut.svg"alt="Image"/>
-            </div>
-          <div class="flechehaut">
-            <a href="#bloc_jff2"><img class="arrowbas" src="img/arrowbas.svg"alt="Image"/>
-          </div>
-      </article>
-    </section>
+      </section>
 
     <!-- Partie 2 -->
 
@@ -148,20 +183,18 @@
           <article class="jff">
 
             <article id="ligne_3">
-                <a href="http://htmlpreview.github.io/?https://raw.githubusercontent.com/simplon-celineD/rendu1/master/maquette_4colonne.html"><div id="maquette_4">
+                <a href="https://cdn.rawgit.com/simplon-celineD/calculatrice/master/calculatrice.html"><div id="calculatrice">
                 </div></a>
-                <div class="texte">
-                  <p class="txt"> </p>
-                </div>
+                <a href="https://github.com/simplon-celineD/mini_chat"><div id="minichat">
+                </div></a>
             </article>
 
 
             <article id="ligne_4">
-                <a href="#"><div id="acme">
+              <a href="https://github.com/simplon-celineD/portfolio-v2"><div id="portfolio">
+              </div></a>
+                <a href="https://cdn.rawgit.com/simplon-celineD/isopartner/master/page.html"><div id="isopartner">
                 </div></a>
-                <div class="texte">
-                  <p class="txt"> </p>
-                </div>
             </article>
 
           </article>
@@ -211,7 +244,7 @@
                   <br/>
                   <textarea type="text" name="textarea" id="textarea"> Votre Message ... </textarea>
                   <br/>
-                  <input type="submit" id="bouton">  </input>
+                  <input type="submit" value="Envoyer" id="bouton">  </input>
               </form>
             </article>
 

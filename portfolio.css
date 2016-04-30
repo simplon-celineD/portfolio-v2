@@ -2,17 +2,19 @@
   margin:0;
   padding:0;
 }
+
 /*les margins et les paddings ne sont pas ajoutés aux tailles définies pour les divs*/
 html {
   box-sizing: border-box;
 }
+
 @font-face {
   font-family: 'CODE Bold';
   src: url('fonts/CODE Bold.otf');
 }
 @font-face {
-  font-family: 'CODE Light';
-  src: url('fonts/CODE Light.otf');
+  font-family: 'Alcubierre';
+  src: url('fonts/Alcubierre.otf');
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -29,44 +31,47 @@ a{
 
 /*Header*/
 
-#photo{
+header{
   height: 94vh;
-  background-image:url(img/newyork.jpg);
-  /*background-color: grey;*/
+  background-image:url(img/sky1.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   background-origin: content-box;
   text-align: center;
   padding-top: 20vh;
 }
+
 #nom{
-  color:black;
+  color:white;
   font-size: 6em;
-  font-family: "CODE Bold", Arial, sans-serif;
+  font-family: "Alcubierre", Arial, sans-serif;
   z-index: 1;
   font-size: 4em;
+  text-shadow: -1vw 1vw 0.3vw black;
   padding-top: 5vh;
-  border :0.4vw solid black;
+  /*border :0.4vw solid black;*/
   margin-left: 10vw;
   margin-right: 10vw;
   margin-top: 6vh;
   padding-bottom: 5vh;
-  background-color:rgba(254, 248, 196, 0.4)
-}
-span{
-  color:#0b3a66;
-  font-weight: bold;
-  font-family: "CODE Bold", Arial, sans-serif;
+  /*background-color:rgba(254, 248, 196, 0.4);*/
 
 }
+/*span{
+  color:#0b3a66;
+  font-weight: bold;
+  font-family: "Alcubierre", Arial, sans-serif;
+
+}*/
 #menu{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   background-color:  #0b3a66;
   height: 6vh;
-  font-family: "CODE Bold", Arial, sans-serif;
+  font-family: "Alcubierre", Arial, sans-serif;
+  font-weight: bolder;
   position: relative;
 }
 #ba{
@@ -167,21 +172,6 @@ position:absolute;
 }
 
 
-/*Bande Annonce*/
-
-#bande_annonce{
-  height: 100vh;
-  /*background-color: #212121;*/
-  background-image: url(img/wallpaper21.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  flex-direction: row;
-}
-video{
-  margin-left: 15vw;
-  margin-top: 7vw;
-}
 
 /*Sypnosis*/
 
@@ -202,7 +192,7 @@ video{
   margin-left: 30vw;
   margin-right: 30vw;
   height: 10vh;
-  font-family: "CODE Bold", Arial, sans-serif;
+  font-family: "Alcubierre", Arial, sans-serif;
   font-size: 2.5em;
   font-weight: bolder;
   padding-top: 2vh;
@@ -210,15 +200,41 @@ video{
 #syptexte{
   width: 79vw;
   height: 60vh;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
   margin-left: 10vw;
   margin-top: 10vh;
-  font-family: "CODE Bold", Arial, sans-serif;
+  padding: 4vh 3vw 4vh 3vw;
+  text-align: justify;
+  font-family: "Alcubierre", Arial, sans-serif;
+  font-size: 1.15em;
+  font-weight: bolder;
+  line-height: 120%;
+}
+.syptxt{
+  padding-bottom: 2vh;
 }
 .bloc{
   display: flex;
   flex-direction: row;
 }
+
+/*Bande Annonce*/
+
+#bande_annonce{
+  height: 100vh;
+  /*background-color: #212121;*/
+  background-image: url(img/wallpaper21.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+}
+video{
+  margin-left: 15vw;
+  margin-top: 7vw;
+}
+
 
 /*Mon Univers*/
 
@@ -240,17 +256,18 @@ video{
   margin-left: 30vw;
   margin-right: 30vw;
   height: 10vh;
-  font-family: "CODE Bold", Arial, sans-serif;
+  font-family: "Alcubierre", Arial, sans-serif;
   font-size: 2.5em;
   font-weight: bolder;
 }
 #universtexte{
   width: 79vw;
   height: 60vh;
-  background-color: rgba(255, 255, 255, 0.3);
+  color: white;
+  background-color: rgba(255, 255, 255, 0.1);
   margin-left: 10vw;
   margin-top: 10vh;
-  font-family: "CODE Bold", Arial, sans-serif;
+  font-family: "Alcubierre", Arial, sans-serif;
 }
 
 /*Just For Fans*/
@@ -289,6 +306,12 @@ video{
 #maquette{
   background-image: url(img/maquette.png);
 }
+#maquette_4{
+  background-image: url(img/maquette_4.png);
+}
+#acme{
+  background-image: url(img/acme.png);
+}
 
     /*Partie 2*/
 
@@ -310,16 +333,26 @@ video{
   flex-direction: row;
   height: 50vh;
 }
-#maquette_4{
-  background-image: url(img/maquette_4.png);
+#calculatrice{
+  background-image: url(img/calculatrice.png);
 }
-#acme{
-  background-image: url(img/acme.png);
+#minichat{
+  background-image: url(img/minichat.png);
 }
+#portfolio{
+  /*background-image: url(img/portfolio.png);*/
+  background-color: white;
+
+}
+#isopartner{
+  background-image: url(img/isopartner.png);
+
+}
+
 
 /*Pour les 2 parties*/
 
-#maquette_4, #acme, #maquette, #airbnb{
+#maquette_4, #acme, #maquette, #airbnb, #calculatrice, #minichat, #portfolio, #isopartner{
   background-repeat: no-repeat;
   background-size: cover;
   width: 40vw;
@@ -327,19 +360,6 @@ video{
   margin-top: 5vh;
   margin-left: 5vw;
   }
-
-.texte{
-  width: 40vw;
-  height: 50vh;
-}
-p{
-  background-color: white;
-  width: 40vw;
-  height: 40vh;
-  margin-top: 5vh;
-  margin-left: 5vw;
-  font-family: "CODE Light", Arial, sans-serif;
-}
 
 /*Contact*/
 
@@ -408,23 +428,22 @@ margin-left: 5vw;
   text-align: center;
   padding-top: 0.5vh;
   margin-right: 3vw;
-  font-family: "CODE Bold", Arial, sans-serif;
+  font-family: "Alcubierre", Arial, sans-serif;
   font-weight: bolder;
   font-size: 1em;
   background-color: rgba(11, 58, 102, 0.3);
   color: white;
+  margin-top: 5vh;
+  margin-left: 5vw;
 }
-input{
-  width: 20vw;
-  height: 5vh;
-}
+
 #name, #forname, #email  {
   margin-top: 5vh;
   margin-left: 3vw;
   padding-left: 1vw;
   width: 30vw;
   height: 6vh;
-  font-family: "CODE Bold", Arial, sans-serif;
+  font-family: "Alcubierre", Arial, sans-serif;
   background-color: rgba(11, 58, 102, 0.3);
   color: white;
   font-weight: bolder;
@@ -439,19 +458,19 @@ input{
   margin-left: 3vw;
   width: 30vw;
   height: 30vh;
-  font-family: "CODE Bold", Arial, sans-serif;
+  font-family: "Alcubierre", Arial, sans-serif;
   background-color: rgba(11, 58, 102, 0.3);
   color: white;
   font-weight: bolder;
   font-size: 0.9em;
   border: 0.1vw;
 }
-button{
-  width: 7vw;
-  height: 4vh;
+ #bouton{
+  width: 10vw;
+  height: 5vh;
   margin-top: 2vh;
-  margin-left: 14vw;
-  font-family: "CODE Bold", Arial, sans-serif;
+  margin-left: 13vw;
+  font-family: "Alcubierre", Arial, sans-serif;
   font-weight: bolder;
   background-color: rgba(11, 58, 102, 1);
   color: white;
@@ -468,13 +487,13 @@ button{
 }
 #arrow2{
   margin-top: 25vh;
-  margin-left: 4vw;
+  /*margin-left: 4vw;*/
 }
 .arrow1{
   display: flex;
   flex-direction: column;
   margin-top: 10vh;
-  margin-left: 4vw;
+  /*margin-left: 4vw;*/
 }
 
 .arrow{
@@ -497,7 +516,7 @@ button{
   font-size: 0.9em;
   padding-top: 2vh;
   color: #0b3a66;
-  font-family: "CODE Bold", Arial, sans-serif;
+  font-family: "Alcubierre", Arial, sans-serif;
 }
 #retour:hover{
   background-color:#0b3a66;
