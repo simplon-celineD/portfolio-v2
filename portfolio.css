@@ -265,9 +265,14 @@ video{
   height: 60vh;
   color: white;
   background-color: rgba(255, 255, 255, 0.1);
+  padding: 6vh 3vw 4vh 3vw;
+  text-align: justify;
   margin-left: 10vw;
   margin-top: 10vh;
   font-family: "Alcubierre", Arial, sans-serif;
+  font-size: 1.15em;
+  font-weight: bolder;
+  line-height: 130%;
 }
 
 /*Just For Fans*/
@@ -340,9 +345,7 @@ video{
   background-image: url(img/minichat.png);
 }
 #portfolio{
-  /*background-image: url(img/portfolio.png);*/
-  background-color: white;
-
+  background-image: url(img/portfolio.png);
 }
 #isopartner{
   background-image: url(img/isopartner.png);

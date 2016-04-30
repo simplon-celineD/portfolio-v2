@@ -76,7 +76,7 @@
               intervention décisive.
             </br>
               M directrice de Simplon-Lyon s'est liée à l'EPSI afin que Simploniens/Simploniennes
-              réalise une opération.
+              réalisent une opération.
             </br>
               Nom de code : Bachelor Informatique.
             </p>
@@ -129,11 +129,46 @@
 
         <div class="sousbloc">
           <article id="universtexte">
+            <p class="syptxt">
+              Tout d'abord je tiens à vous dire que je connaissais rien
+              au developpement web il y a 6 mois.
+            </br>
+              C'est en effectuant une formation dans ce domaine que j'ai découvert
+              le code.
+            </br>
+              Pour y accéder je devais passer des badges sur un site de programmation
+              en ligne.
+            </br>
+              Ce qui m'a permis d'apercevoir et d'assimiler les bases de quelques langages.
+              Entre autres : HTML, CSS et Ruby.
+            </br>
+              J'ai aimé travailler avec les 2 premiers cités car il y a un résultat visuel
+              immédiat.
+            <p class="syptxt">
+              Puis parvenant a intégrer la formation de developpeur web/mobile,
+              j'ai appris de nouveaux langages tels que JavaScript, PHP et MySQL et
+              à maîtriser HTML5 et CSS3.
+            </p>
+            <p class="syptxt">
+              J'ai décidé de poursuivre mon chemin dans cette voie.
+            </br>
+              J'affectionne le front-end (particulièrement HTML5 et CSS3) mais
+              je trouve le back-end (PHP et MySQL) tout aussi intéressant.
+            <p class="syptxt">
+              Je souhaite faire fusionner ces 2 mondes très distinct pour devenir
+              une developpeuse web full-stack.
+            </p>
+              Il est pour moi évident et enrichissant
+              de suivre et réaliser un projet dans son intégralité.
+            </p>
+
+
+
           </article>
         </div>
           <div class="arrow">
             <div class="flechehaut">
-              <a href="#bloc_sypnosis"><img class="arrowhaut" src="img/arrowhaut.svg"alt="Image"/>
+              <a href="#bande_annonce"><img class="arrowhaut" src="img/arrowhaut.svg"alt="Image"/>
             </div>
           <div class="flechehaut">
               <a href="#bloc_jff"><img class="arrowbas" src="img/arrowbas.svg"alt="Image"/>
