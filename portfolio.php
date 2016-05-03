@@ -11,7 +11,11 @@
 <!-- Header : photo avec nom et prénom-->
 
     <header>
-
+      <div class="video">
+        <video autoplay loop poster muted id="bgvid">
+          <source src="video/Abstract.mp4" type="video/mp4">
+        </video>
+      </div>
         <div id="nom">
           <strong> CELINE DESBOIS </strong>
         <br/>
@@ -68,14 +72,14 @@
             </br>
               Le doute, le syndrome de l'imposteur, les points virgules !
             </br>
-              Et c'est avec du courage, du volontarisme et de la persévérence que j'y verrais
+              Et c'est avec du courage, du volontarisme et de la persévérence que je verrais
               un aboutissement.
             </p>
             <p class="syptxt">
-              Je vous écrit tout cela car je me suis engagée dans l'accomplissement d'une
+              Je vous écris cela car je me suis engagée dans l'accomplissement d'une
               intervention décisive.
             </br>
-              M directrice de Simplon-Lyon s'est liée à l'EPSI afin que Simploniens/Simploniennes
+              M, directrice de Simplon-Lyon s'est liée à l'EPSI afin que Simploniens/Simploniennes
               réalisent une opération.
             </br>
               Nom de code : Bachelor Informatique.
@@ -105,7 +109,7 @@
       <section id="bande_annonce">
         <article id="bandeannonce">
           <video width="900vw" height="500vh" controls>
-            <source src="video/space.mp4" type="video/mp4">
+            <source src="video/hacker.mp4" type="video/mp4">
           </video>
         </article>
         <div id="arrow">
@@ -130,11 +134,8 @@
         <div class="sousbloc">
           <article id="universtexte">
             <p class="syptxt">
-              Tout d'abord je tiens à vous dire que je connaissais rien
-              au developpement web il y a 6 mois.
-            </br>
-              C'est en effectuant une formation dans ce domaine que j'ai découvert
-              le code.
+              Il y a 6 mois  j'ai découvert
+              le code en effectuant une formation dans le developpement web.
             </br>
               Pour y accéder je devais passer des badges sur un site de programmation
               en ligne.
@@ -142,20 +143,20 @@
               Ce qui m'a permis d'apercevoir et d'assimiler les bases de quelques langages.
               Entre autres : HTML, CSS et Ruby.
             </br>
-              J'ai aimé travailler avec les 2 premiers cités car il y a un résultat visuel
+              J'aime travailler avec les 2 premiers cités car il y a un résultat visuel
               immédiat.
             <p class="syptxt">
-              Puis parvenant a intégrer la formation de developpeur web/mobile,
+              Puis parvenant à intégrer la formation de developpeur web/mobile,
               j'ai appris de nouveaux langages tels que JavaScript, PHP et MySQL et
               à maîtriser HTML5 et CSS3.
             </p>
             <p class="syptxt">
-              J'ai décidé de poursuivre mon chemin dans cette voie.
+              J'ai décidé de poursuivre dans cette voie.
             </br>
               J'affectionne le front-end (particulièrement HTML5 et CSS3) mais
               je trouve le back-end (PHP et MySQL) tout aussi intéressant.
             <p class="syptxt">
-              Je souhaite faire fusionner ces 2 mondes très distinct pour devenir
+              Je souhaite faire fusionner ces 2 mondes très distincts pour devenir
               une developpeuse web full-stack.
             </p>
               Il est pour moi évident et enrichissant
